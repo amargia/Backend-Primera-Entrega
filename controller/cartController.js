@@ -1,9 +1,6 @@
-//importo las funciones de carritos.js
 const cart = require("../utils/cart");
 
-//Declaro el controller 
 class Carts {
-
     static getCarts() {
         return cart.list();
     }
@@ -27,7 +24,6 @@ class Carts {
     static deletProduct(x, y) {
         return cart.deletProduct(x, y);
     }
-
 }
 
 module.exports = Carts;

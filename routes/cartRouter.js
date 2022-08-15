@@ -1,13 +1,9 @@
 const express = require("express");
 const { Router } = require("express");
-//declaro el router
+
 const carts = Router();
 
-//importo el controller
 const Carts = require("../controller/cartController")
-
-//estructura carrito
-//id, timestamp, products[]
 
 carts.get("/", (req, res) => {     
   Carts.getCarts()  
