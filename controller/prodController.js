@@ -1,27 +1,26 @@
-const productos = require("../utils/products");
+const methodBank = require("../utils/products");
 
 class ProductsContainer { 
   
   static getAll() {
-    const productos = productos.list();
-    return productos;
+    return methodBank.list();
   }
 
-  static create(title, price, thumbnail) {
-    const prod = productos.add(title, price, thumbnail);
-    return prod;
+  static create(object) {
+    return methodBank.add(object)
   }
 
-  static update(id, newProduct) {
-    const updateProd = productos.update(id, newProduct)
-    return updateProd;
+  static getById(id) {
+    return methodBank.getById(id)
+  }
+
+  static update(id, object) {
+    return methodBank.update(id, object)
   }
 
   static delete(id) {
-    const deleteProd = productos.remove(id);
-    return deleteProd;
-  }  
-
+    return methodBank.remove(id)
+  }
 } 
 
 module.exports = ProductsContainer;
