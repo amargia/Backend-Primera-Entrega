@@ -1,6 +1,6 @@
 const productos = require("../utils/products");
 
-class Products { 
+class ProductsContainer { 
   
   static getAll() {
     const productos = productos.list();
@@ -24,4 +24,4 @@ class Products {
 
 } 
 
-module.exports = Products;
+module.exports = ProductsContainer;
