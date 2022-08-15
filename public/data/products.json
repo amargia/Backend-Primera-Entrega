@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Monitor",
+        "description": "Monitor Samsung 4K para PC",
+        "code": "MN10",
+        "thumbnail": "https://r.btcdn.co/r/eyJzaG9wX2lkIjozNTk5LCJnIjoiMTAwMHgifQ/9d0de35a106f01f/764050-324K00.jpg",
+        "price": 399000,
+        "stock": 50,
+        "timestamp": 1660224081478
+    },
+    {
+        "id": 2,
+        "name": "Gabinete Gamer",
+        "description": "Gabinete Gamer Thermaltake",
+        "code": "GBG20",
+        "thumbnail": "https://media.spdigital.cl/__sized__/products/ai2oonqt_07a278a3-thumbnail-1080x1080-70.jpg",
+        "price": 211250,
+        "stock": 40,
+        "timestamp": 1659884104417
+    },
+    {
+        "id": 3,
+        "name": "Cougar Teclado Gamer",
+        "description": "Teclado Gamer Semi mecánico retroiluminado",
+        "code": "CTG",
+        "thumbnail": "https://cdn.shopify.com/s/files/1/0653/6088/8065/products/1_caaecdd4-3b96-4cc7-ba35-bf964e2418fc_1024x1024.jpg?v=1658861732",
+        "price": 39990,
+        "stock": 70,
+        "timestamp": 1659884104436
+    }
+]
