@@ -21,8 +21,8 @@ class Carts {
         return cart.deleteById(x);
     }
 
-    static deletProduct(x, y) {
-        return cart.deletProduct(x, y);
+    static deleteProduct(x, y) {
+        return cart.deleteProduct(x, y);
     }
 }
 
